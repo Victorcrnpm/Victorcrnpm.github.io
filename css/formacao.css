@@ -110,8 +110,8 @@
   top: -4px;
 }
 
-.cursos h3::before {
-  background: url("../Fotos/cursos.svg") no-repeat center center;
+.ferramentas h3::before {
+  background: url("../Fotos/pencil-fill\ 1.svg") no-repeat center center;
 }
 
 .idiomas h3::before {
