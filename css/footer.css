@@ -23,6 +23,7 @@
   font-size: 2.25rem;
   line-height: 1.1;
   color: #090909;
+  margin-right: 30px;
   margin-bottom: 30px;
   position: relative;
 }
@@ -33,9 +34,9 @@
   height: 24px;
   display: block;
   position: absolute;
-  background: url("../Fotos/email_black_24dp\ 1.svg") no-repeat center;
+  background: url("../Fotos/Emailsvg.svg") no-repeat center;
   left: -36px;
-  top: 10px;
+  top: 11px;
 }
 
 .telefone::before {
@@ -44,7 +45,7 @@
   height: 24px;
   display: block;
   position: absolute;
-  background: url("../Fotos/phone_black_24dp\ 1.svg") no-repeat center;
+  background: url("../Fotos/Telefonesvg.svg") no-repeat center;
   left: -36px;
   top: 10px;
 }
@@ -58,6 +59,17 @@
   background: url("../Fotos/instagram.svg") no-repeat center;
   left: -36px;
   top: 11px;
+}
+
+.linkedin::before {
+  content: "";
+  width: 24px;
+  height: 24px;
+  display: block;
+  position: absolute;
+  background: url("../Fotos/Vector.svg") no-repeat center;
+  left: -36px;
+  top: 7px;
 }
 
 .footer-contato li a {
