@@ -103,4 +103,8 @@
     position: initial;
     margin-bottom: 10px;
   }
+  .linkedin::before {
+    position: initial;
+    margin-bottom: 10px;
+  }
 }
