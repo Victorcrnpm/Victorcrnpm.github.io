@@ -23,6 +23,13 @@
   display: block;
 }
 
+header li a:hover {
+  background: linear-gradient(180deg, #2d29f8 0%, #0adddd 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: .20s;
+}
+
 @media (max-width: 800px) {
   .header {
     flex-direction: column;

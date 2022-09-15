@@ -50,6 +50,20 @@
   top: 10px;
 }
 
+.instagram a:hover {
+  background: linear-gradient(180deg, #2d29f8 0%, #0adddd 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: .20s;
+}
+
+.linkedin a:hover {
+  background: linear-gradient(180deg, #2d29f8 0%, #0adddd 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: .20s;
+}
+
 .instagram::before {
   content: "";
   width: 24px;
